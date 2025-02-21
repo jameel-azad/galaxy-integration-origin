@@ -39,7 +39,7 @@ AUTH_PARAMS = {
     "window_title": "Login to Origin",
     "window_width": 495 if is_windows() else 480,
     "window_height": 746 if is_windows() else 708,
-    "start_uri": "https://accounts.ea.com/connect/auth?response_type=code&redirect_uri=https%3A%2F%2Fwww.ea.com%2Flogin_check&state=7a8a9ff2-fb4d-45df-8cda-e8c3008bb2e2&locale=en_US&client_id=EADOTCOM-WEB-SERVER&display=junoWeb%2Flogin",
+    "start_uri": "https://accounts.ea.com/connect/auth?response_type=code&redirect_uri=https%3A%2F%2Fwww.ea.com%2Flogin_check&locale=en_US&client_id=EADOTCOM-WEB-SERVER&display=junoWeb%2Flogin",
     "end_uri_regex": "^https://www.ea.com/"
 }
 def regex_pattern(regex):
